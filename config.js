@@ -173,10 +173,10 @@ const config = {
 
     groupOnly: "👥 *Group Only!* Fitur ini hanya bisa digunakan di dalam grup.",
     privateOnly:
-      "� *Private Only!* Fitur ini hanya bisa digunakan di chat pribadi bot.",
+      "  *Private Only!* Fitur ini hanya bisa digunakan di chat pribadi bot.",
 
     adminOnly:
-      "�️ *Admin Only!* Kamu harus jadi Admin grup untuk pakai fitur ini.",
+      " ️ *Admin Only!* Kamu harus jadi Admin grup untuk pakai fitur ini.",
     botAdminOnly:
       "🤖 *Bot Bukan Admin!* Jadikan bot sebagai Admin grup dulu biar bisa kerja.",
 
@@ -291,16 +291,16 @@ const config = {
     lolhuman: "APIKey-Milik-Bot-OurinMD(Zann,HyuuSATANN,Keisya,Danzz)",
     // kalian bisa daftar di https://api.neoxr.eu, lalu ambil apikeynya
     neoxr: "Milik-Bot-OurinMD",
-    fgsi: "",
-    google: "",
-    groq: "", // API Key Groq untuk fitur transkrip (gratis di console.groq.com)
-    betabotz: "",
+    fgsi: "fgsiapi-20c1605c-6d",
+    google: "AIzaSyAS-KiW0SrwiYKwexeBcGPijBVHFg2R_vo",
+    groq: "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", // API Key Groq untuk fitur transkrip (gratis di console.groq.com)
+    betabotz: "Btz-67YfP",
     // kalian bisa daftar di https://covenant.sbs, dan ambil apikeynya
-    covenant: "",
-    onlym: "",
-    obscura: "",
-    firefly: "",
-    cuki: ""
+    covenant: "cov_live_bb660c9e5f735e46d808b7ae362914cfe35c2936739ee2b2",
+    onlym: "ONLym-783d29",
+    obscura: "obs-byOn9RVGMzvPXZQTsP9W",
+    firefly: "OurinNextGen",
+    cuki: "cuki-x"
   },
 };
 
