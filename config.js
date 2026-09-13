@@ -4,7 +4,7 @@ import * as ownerPremiumDb from "./src/lib/ourin-premium-db.js";
 //  utamakan baca object config sampai bawah
 const config = {
   info: {
-    website: "anzzzstore.my.id",
+    website: "shiinimebeta.vercel.app",
     grupwa: "https://chat.whatsapp.com/GkwxFttTXFE9qjBjTwE7aj?s=cl&p=a&ilr=0&amv=3",
   },
 
@@ -14,7 +14,7 @@ const config = {
   },
 
   session: {
-    pairingNumber: "628136134836", // Kosongkan agar bot menunggu input nomor saat dibutuhkan
+    pairingNumber: "6281376148983", // Kosongkan agar bot menunggu input nomor saat dibutuhkan
     usePairingCode: true, // false = QR Code (lebih stabil untuk pairing)
     printQRInTerminal: true,
   },
