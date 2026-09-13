@@ -20,7 +20,7 @@
   "audioMenu": true,
   "transactionSessions": {},
   "premiumUsers": [],
-  "similarity": true,
+  "similarity": false,
   "botRules": "1.tes\\n2. tes",
   "goodbyeType": 7,
   "onlyAdmin": false,
@@ -40,7 +40,7 @@
   "jedaJpm": 15000,
   "globalCustomReplies": [],
   "panelCreateLastUsed": 1775377733441,
-  "autoJoinGc": true,
+  "autoJoinGc": false,
   "autoSholat": false,
   "errorLog": [
     {

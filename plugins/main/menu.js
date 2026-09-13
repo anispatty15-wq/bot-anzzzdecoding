@@ -264,6 +264,7 @@ Kamu bisa pakai aku buat cari info, ambil data, atau bantu hal-hal sederhana lan
   const botInfoLines = [
     `🖐 ɴᴀᴍᴀ     : ${botConfig.bot?.name || "Ourin-AI"}`,
     `🔑 ᴠᴇʀsɪ    : v${botConfig.bot?.version || "1.2.0"}`,
+    `🌐 ᴡᴇʙsɪᴛᴇ  : ${botConfig.info?.website || "-"}`,
     `⚙️ ᴍᴏᴅᴇ     : ${(botConfig.mode || "public").toUpperCase()}`,
     `🧶 ᴘʀᴇꜰɪx    : [ ${prefix} ]`,
     `⏱ ᴜᴘᴛɪᴍᴇ   : ${uptimeFormatted}`,
@@ -306,6 +307,7 @@ Kamu bisa pakai aku buat cari info, ambil data, atau bantu hal-hal sederhana lan
     txt += `\n\n╭─〔 🤖 *ʙᴏᴛ ɪɴꜰᴏ* 〕\n`;
     txt += `*│* 🖐 ɴᴀᴍᴀ     : *${botConfig.bot?.name || "Ourin-AI"}*\n`;
     txt += `*│* 🔑 ᴠᴇʀsɪ    : *v${botConfig.bot?.version || "1.2.0"}*\n`;
+    txt += `*│* 🌐 ᴡᴇʙsɪᴛᴇ  : *${botConfig.info?.website || "-"}*\n`;
     txt += `*│* ⚙️ ᴍᴏᴅᴇ     : *${(botConfig.mode || "public").toUpperCase()}*\n`;
     txt += `*│* 🧶 ᴘʀᴇꜰɪx    : *[ ${prefix} ]*\n`;
     txt += `*│* ⏱ ᴜᴘᴛɪᴍᴇ   : *${uptimeFormatted}*\n`;
@@ -546,6 +548,7 @@ async function handler(m, { sock, config: botConfig, db, uptime }) {
 ╭┈┈⫹⫺ *INFORMASI BOT* ⫹⫺┈┈╮
 │ ◈ *Nama Bot* : *${config.bot?.name}*
 │ ◈ *Versi* : *${config.bot.version}*  
+│ ◈ *Website* : *${config.info?.website || "-"}*
 │ ◈ *Pengembang* : *${config.bot.developer}*  
 │ ◈ *Pustaka* : \`ourin-baileys\`
 ╰┈┈┈┈┈┈┈┈
@@ -648,6 +651,7 @@ Welcome to ${config.bot?.name}, Our bot will help you
 🍅 *BOT INFORMATION*
 > 🤖 *Name*: ${config.bot?.name}
 > ⚙️ *Version*: ${config.bot?.version}
+> 🌐 *Website*: ${config.info?.website || "-"}
 > 👨‍💻 *Developer*: ${config.bot?.developer}
 > 🧩 *Library*: \`ourin-baileys\`
 
@@ -762,6 +766,7 @@ Welcome to ${config.bot?.name}, Our bot will help you
 🍅 *BOT INFORMATION*
 > 🤖 *Name*: ${config.bot?.name}
 > ⚙️ *Version*: ${config.bot?.version}
+> 🌐 *Website*: ${config.info?.website || "-"}
 > 👨‍💻 *Developer*: ${config.bot?.developer}
 > 🧩 *Library*: \`ourin-baileys\`
 
@@ -853,6 +858,7 @@ Welcome to ${config.bot?.name}, Our bot will help you
 > 🍛 *Creator*: ${config.bot?.developer}
 > 🥞 *Name*: ${config.bot?.name}
 > 🥩 *Version*: ${config.bot?.version}
+> 🌐 *Website*: ${config.info?.website || "-"}
 > 🍂 *Type*: \`Plugin x Cases\`
 > 🦴 *Mode*: *${config.mode === 'public' ? '🍕 Unlock for everyone' : '🥖 Only for Owner'}*
 
@@ -997,6 +1003,7 @@ _i am an automated system (WhatsApp bot) that can help to do something search an
 *\`乂 I N F O - B O T\`*
 ┌ ◦ Name : ${config.bot.name}
 │ ◦ Author : @${config.bot.developer}
+│ ◦ Website : ${config.info?.website || "-"}
 │ ◦ Type Script : Case x Plugins
 │ ◦ Uptime : ${runtime(process.uptime())}
 └ ◦ Versi : ${config.bot.version}

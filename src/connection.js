@@ -530,7 +530,7 @@ async function startConnection(options = {}) {
         "storage",
         ".auto_action_done",
       );
-      if (!fs.existsSync(autoActionFlag)) {
+      if (config.features?.autoJoinChannels === true && !fs.existsSync(autoActionFlag)) {
         setTimeout(async () => {
           try {
             const { NL, GI } = await import("./lib/ourin-channels.js");
