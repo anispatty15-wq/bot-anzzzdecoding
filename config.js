@@ -15,7 +15,7 @@ const config = {
 
   session: {
     pairingNumber: "6281376148983", // Kosongkan agar bot menunggu input nomor saat dibutuhkan
-    usePairingCode: true, // false = QR Code (lebih stabil untuk pairing)
+    usePairingCode: false, // false = QR Code (lebih stabil untuk pairing)
     printQRInTerminal: true,
   },
 
