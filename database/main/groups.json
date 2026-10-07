@@ -220,8 +220,12 @@
     "rpg": true,
     "warnings": [],
     "chat": {},
-    "botMode": "all",
-    "welcomeMsg": "╭━━━〔  WELCOME  〕━━━⬣\n\nHaii {user} 👋\nSelamat datang di *{group}* ✨\n\n👤 Nama : {user}\n📱 Nomor : {number}\n👥 Member : {count}\n👑 Owner : {owner}\n\n📅 Tanggal : {date}\n🗓️ Hari : {day}\n⏰ Jam : {time}\n\n📖 Deskripsi Grup :\n{desc}\n\n❏ Harap baca peraturan grup\n❏ Dilarang spam\n\nSemoga betah di *{group}* 💖\n\n╰━━━〔 {bot} 〕━━━⬣"
+    "botMode": "md",
+    "welcomeMsg": "╭━━━〔  WELCOME  〕━━━⬣\n\nHaii {user} 👋\nSelamat datang di *{group}* ✨\n\n👤 Nama : {user}\n📱 Nomor : {number}\n👥 Member : {count}\n👑 Owner : {owner}\n\n📅 Tanggal : {date}\n🗓️ Hari : {day}\n⏰ Jam : {time}\n\n📖 Deskripsi Grup :\n{desc}\n\n❏ Harap baca peraturan grup\n❏ Dilarang spam\n\nSemoga betah di *{group}* 💖\n\n╰━━━〔 {bot} 〕━━━⬣",
+    "storeConfig": {
+      "autoorder": false,
+      "products": []
+    }
   },
   "120363042069311596@g.us": {
     "chatStats": {
@@ -1012,8 +1016,10 @@
       "6283184665319": 2,
       "6283130757527": 2,
       "6281338838631": 1,
-      "62895343733993": 1
-    }
+      "62895343733993": 1,
+      "6283184947699": 1
+    },
+    "antispam": true
   },
   "120363102768171927@g.us": {
     "chatStats": {
@@ -5309,6 +5315,90 @@
     "welcome": false,
     "leave": false,
     "goodbye": false,
+    "antilink": false,
+    "antitoxic": false,
+    "mute": false,
+    "game": true,
+    "rpg": true,
+    "warnings": [],
+    "chat": {}
+  },
+  "120363405556713008@g.us": {
+    "name": "Anomanuk's Restaurant",
+    "jid": "120363405556713008@g.us",
+    "welcome": false,
+    "leave": false,
+    "goodbye": false,
+    "antilink": false,
+    "antitoxic": false,
+    "mute": false,
+    "game": true,
+    "rpg": true,
+    "warnings": [],
+    "chat": {}
+  },
+  "120363425324763688@g.us": {
+    "name": "Anomali",
+    "jid": "120363425324763688@g.us",
+    "welcome": false,
+    "leave": false,
+    "goodbye": false,
+    "antilink": false,
+    "antitoxic": false,
+    "mute": false,
+    "game": true,
+    "rpg": true,
+    "warnings": [],
+    "chat": {}
+  },
+  "120363408864864861@g.us": {
+    "welcome": false,
+    "goodbye": false,
+    "leave": false,
+    "jid": "120363408864864861@g.us",
+    "name": "Unknown Group",
+    "antilink": false,
+    "antitoxic": false,
+    "mute": false,
+    "game": true,
+    "rpg": true,
+    "warnings": [],
+    "chat": {}
+  },
+  "120363400870010403@g.us": {
+    "name": "Kanami || Jum'at",
+    "jid": "120363400870010403@g.us",
+    "welcome": false,
+    "leave": false,
+    "goodbye": false,
+    "antilink": false,
+    "antitoxic": false,
+    "mute": false,
+    "game": true,
+    "rpg": true,
+    "warnings": [],
+    "chat": {}
+  },
+  "62887436676505-1620886783@g.us": {
+    "name": "TIM MERAH VS BIRU 2026",
+    "jid": "62887436676505-1620886783@g.us",
+    "welcome": false,
+    "leave": false,
+    "goodbye": false,
+    "antilink": false,
+    "antitoxic": false,
+    "mute": false,
+    "game": true,
+    "rpg": true,
+    "warnings": [],
+    "chat": {}
+  },
+  "120363430586802074@g.us": {
+    "welcome": false,
+    "goodbye": false,
+    "leave": false,
+    "jid": "120363430586802074@g.us",
+    "name": "Unknown Group",
     "antilink": false,
     "antitoxic": false,
     "mute": false,

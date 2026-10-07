@@ -3,8 +3,8 @@
   "ownerNumbers": [],
   "ownerType": 2,
   "welcomeType": 7,
-  "replyVariant": 6,
-  "menuVariant": 6,
+  "replyVariant": 1,
+  "menuVariant": 4,
   "botAfk": {
     "active": false
   },
@@ -13,7 +13,7 @@
     "id": "1301",
     "nama": "KOTA JAKARTA"
   },
-  "onlyGc": true,
+  "onlyGc": false,
   "onlyPc": false,
   "giveaways": {},
   "botMode": "store",
@@ -40,9 +40,24 @@
   "jedaJpm": 15000,
   "globalCustomReplies": [],
   "panelCreateLastUsed": 1775377733441,
-  "autoJoinGc": false,
+  "autoJoinGc": true,
   "autoSholat": false,
   "errorLog": [
+    {
+      "cmd": "unknown",
+      "err": "isRunning is not a function",
+      "at": 1791217097123
+    },
+    {
+      "cmd": "unknown",
+      "err": "Cannot read properties of undefined (reading 'sendButton')",
+      "at": 1791214317540
+    },
+    {
+      "cmd": "unknown",
+      "err": "Cannot read properties of undefined (reading 'sendButton')",
+      "at": 1791214304398
+    },
     {
       "cmd": "unknown",
       "err": "Source harus berupa Buffer, URL string, path file, object { url }, atau payload media",
@@ -146,7 +161,6 @@
     "6285341666339",
     "6285942028676",
     "6285840230152",
-    "6283130757527",
     "6288809130135",
     "6282190594075",
     "6289684013921",
@@ -877,13 +891,166 @@
   },
   "storeLists": [
     {
-      "id": "L1782181456242",
-      "name": "alight motion",
-      "content": "ㅤㅤㅤㅤ𖹭 *AnzzXRii* 𝘀𝘁𝗼𝗿𝗲 𖹭\n\nꞋꞌ ˗ˋˏ *AnzzXRii*┈ 𝒞.𝗌𝗍𝗈𝗋𝖾 !!\n˖ ⸙ 𝗍𝗋𝗎𝗌𝗍𝖾𝖽 & 𝖺𝖿𝖿𝗈𝗋𝖽𝖺𝖻𝗅𝖾 ─\n\n˒˒ ׅ 𐀶 › ┈┈ 𝅄 ׁ 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲 *Alight Motion*\n\n. 𑄚 ֪ ︱ 1y 𝗉𝗋𝗂𝗏 𝖺𝖼𝖼 non seller ⵓ 4.000 (𝗆𝖺𝗑 𝟤𝟦𝗃𝖺𝗆)\n. 𑄚 ֪ ︱ 1y 𝗉𝗋𝗂𝗏 𝖺𝖼𝖼 s ⵓ 700p (𝖿𝖺𝗌𝗍)\n. 𑄚 ֪ ︱ 1y sharing 𝖺𝖼𝖼 𝗌 ⵓ 4𝟢𝟢p (slow)\n\n𐔌 𝅄 ݃ 🛒 › 𝘀𝗲𝗲 𝗻𝗼𝘁𝗲'𝘀 ¡! ֵ ˒˓\n\nׄׄ០⃘‌០ ֶָ֢֪ 𝖻𝖾𝗅𝗂 = 𝗇𝗈 𝗋𝗎𝗌𝗁, 𝗇𝗈 𝗋𝖾𝖿𝖿\nׄׄ០⃘‌០ ֶָ֢֪ 𝖾𝗆𝖺𝗂𝗅 𝗁𝖺𝗋𝗎𝗌 𝖿𝗋𝖾𝗌𝗁, 𝗇𝗈 𝗏𝖾𝗋𝗂𝖿\nׄׄ០⃘‌០ ֶָ֢֪ 𝗍𝖺𝗇𝗒𝖺𝗄𝖺𝗇 𝗌𝗍𝗈𝗄, 𝗃𝗀𝗇 𝖺𝗌𝖺𝗅 𝗍𝖿\n០⃘‌០ ֶָ֢֪ 1y (1years/tahun) , 1b (1bulan)\n\n୨୧ 𝗍𝗁𝖺𝗇𝗄 𝗒𝗈𝗎 𝖿𝗈𝗋 𝗌𝗁𝗈𝗉𝗉𝗂𝗇𝗀 𝖺𝗍 𝖺𝗇𝗓𝗓𝗓XRii 𝗌𝗍𝗈𝗋𝖾 !\nKETIK .qris untuk pembayaran\nKetik .beli untuk beli",
-      "description": "ㅤㅤㅤㅤ𖹭 *AnzzXRii* 𝘀𝘁𝗼𝗿𝗲 𖹭  Ꞌꞌ ˗ˋˏ *AnzzXRii*┈ 𝒞.𝗌𝗍𝗈𝗋𝖾 !! ˖ ⸙ 𝗍𝗋𝗎\ud835",
+      "id": "L1791390151769",
+      "name": "AM",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Alight Motion\n\n. ɷ ˬ | 1y private  ⨀ 3.100\nress: 350p\n. ɷ ˬ | 6b private  ⨀ 2.500\nress: 230p\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ garansi 6 bulan\n∞ ˬ kirim ss login max 1x24 jam, no ss = no garansi\n∞ ˬ beli = no rush, no reff\n∞ ˬ email harus fresh, no verif\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
       "image": null,
       "video": null,
-      "createdAt": "2026-06-23T02:24:16.242Z"
+      "createdAt": "2026-10-07T16:22:31.769Z"
+    },
+    {
+      "id": "L1791390187000",
+      "name": "ALL VPN",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price ALL VPN\n\n. ɷ ˬ | vpn express private 1b ⨀ 10.000\nress: 7.500\n. ɷ ˬ | vpn surfshark sharing 2b ⨀ 10.000\nress: 7.500\n. ɷ ˬ | vpn express sharing 1b ⨀ 7.000\nress: 4.500\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login max 1x24 jam\n∞ ˬ no ss = no garansi, harap login 1 device\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:23:07.000Z"
+    },
+    {
+      "id": "L1791390238109",
+      "name": "Apple Music",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Apple Music\n\n. ɷ ˬ | famhead 1b ⨀ 8.500\nress: 5.500\n. ɷ ˬ | famplan join link 1b ⨀ 8.000\nress: 5.000\n. ɷ ˬ | indplan 1b ⨀ 8.500\nress: 5.000\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login max 1x24 jam\n∞ ˬ famhead: beli = tau cara pake\n∞ ˬ no ss = no garansi\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:23:58.109Z"
+    },
+    {
+      "id": "L1791390261287",
+      "name": "Bstation",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Bstation\n\n. ɷ ˬ | 1b sharing ⨀ 7.500\nress: 5.000\n. ɷ ˬ | 3b sharing ⨀ 10.500\nress: 8.000\n. ɷ ˬ | 1y sharing ⨀ 12.500\nress: 10.000\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login max 1x24 jam\n∞ ˬ no ss = no garansi, harap login 1 device\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:24:21.287Z"
+    },
+    {
+      "id": "L1791390307353",
+      "name": "Canva",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Canva\n\n. ɷ ˬ | pro 1b via join link ⨀ 3.250\nress: 500p\n. ɷ ˬ | pro 3b via link ⨀ 5.500\nress: 1.000\n. ɷ ˬ | edu lifetime nogar ⨀ 7.000\nress: 5.500\n. ɷ ˬ | head 1b ⨀ 6.000\nress: 8.500\n. ɷ ˬ | head 3b (nogar) ⨀ 15.000\nress: 12.500\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ kirim ss join/login, tidak kirim = kick tim & no garansi\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:25:07.353Z"
+    },
+    {
+      "id": "L1791390443469",
+      "name": "Capcut",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price CapCut Pro\n\n. ɷ ˬ | private 7d indplan ⨀ 5.000\nress: 3.000\n. ɷ ˬ | private 1b no renew ⨀ 25.500\nress: 20.000\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ garansi sesuai variasi\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:27:23.469Z"
+    },
+    {
+      "id": "L1791390483381",
+      "name": "Catcplay+",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Catchplay+\n\n. ɷ ˬ | 1b sharing ⨀ 7.500\nress: 5.000\n. ɷ ˬ | 1y sharing ⨀ 12.500\nress: 10.000\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login, no ss = nogar\n∞ ˬ harap login 1 device\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:28:03.381Z"
+    },
+    {
+      "id": "L1791390525686",
+      "name": "ChatGPT",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price ChatGPT\n\n. ɷ ˬ | chatgpt+ sharing 1b 6u (nogar) ⨀ 12.000\nress: 9.500\n. ɷ ˬ | chatgpt go private 3b ⨀ 20.000\n. ɷ ˬ | chatgpt go sharing 1b 8u ⨀ 13.000\nress: 10.500\n. ɷ ˬ | chatgpt go sharing 3b 8u (gar 1b) ⨀ 17.500\nress: 15.000\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ no garansi / garansi 1b sesuai variasi\n∞ ˬ tidak menerima komplain jika akun backfree/limit/disable\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:28:45.686Z"
+    },
+    {
+      "id": "L1791390571586",
+      "name": "Crunchyroll",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Crunchyroll\n\n. ɷ ˬ | 1b Crack FullGar ⨀ 5.000\nress: 2.700\n. ɷ ˬ | 1b sharing ⨀ 7.500\nress: 5.000\n. ɷ ˬ | 1y sharing ⨀ 12.500\nress: 10.000\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login max 1x24 jam\n∞ ˬ no ss = no garansi, harap login 1 device\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:29:31.586Z"
+    },
+    {
+      "id": "L1791390592548",
+      "name": "Disney+",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Disney+\n\n. ɷ ˬ | 1b sharing 10 user ⨀ 15.000\nress: 12.500\n. ɷ ˬ | 1b sharing 6 user ⨀ 17.000\nress: 14.500\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login+merk hp max 1x24 jam\n∞ ˬ login janjian otp ke admin\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:29:52.548Z"
+    },
+    {
+      "id": "L1791390620658",
+      "name": "Duolingo",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Duolingo\n\n. ɷ ˬ | super indplan 1b ⨀ 7.500\nress: 5.000\n. ɷ ˬ | famplan 1b via join link ⨀ 9.000\nress: 6.500\n. ɷ ˬ | famhead 1b ⨀ 13.000\nress: 10.500\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login + email/username\n∞ ˬ no ss = nogar\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:30:20.658Z"
+    },
+    {
+      "id": "L1791390670410",
+      "name": "Fizzo Novel",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Fizzo Novel\n\n. ɷ ˬ | 1b sharing ⨀ 7.500\nress: 5.000\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login max 1x24 jam\n∞ ˬ no ss = no garansi, harap login 1 device\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:31:10.410Z"
+    },
+    {
+      "id": "L1791390709522",
+      "name": "GagaOOLala",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price GagaOOLala\n\n. ɷ ˬ | 1b sharing ⨀ 8.500\nress: 6.000\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login max 1x24 jam\n∞ ˬ no ss = no garansi, harap login 1 device\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:31:49.522Z"
+    },
+    {
+      "id": "L1791390750658",
+      "name": "Grammarly",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Grammarly\n\n. ɷ ˬ | 1b sharing ⨀ 8.000\nress: 5.500\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login max 1x24 jam\n∞ ˬ no ss = no garansi, harap login 1 device\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:32:30.658Z"
+    },
+    {
+      "id": "L1791390791143",
+      "name": "HBO Max",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price HBO Max\n\n. ɷ ˬ | standar sharing 1b 8 user ⨀ 10.000\nress: 7.500\n. ɷ ˬ | standar private 1b ⨀ 19.000\nress: 16.500\n. ɷ ˬ | ultimate sharing 1b 8 user ⨀ 14.000\nress: 11.500\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login max 1x24 jam\n∞ ˬ no ss = no garansi, harap login 1 device\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:33:11.143Z"
+    },
+    {
+      "id": "L1791390823637",
+      "name": "iQIYI",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price iQIYI\n\n. ɷ ˬ | 1b sharing standar ⨀ 7.000\nress: 4.500\n. ɷ ˬ | 1b sharing premium ⨀ 9.000\nress: 6.500\n. ɷ ˬ | 1y sharing standar ⨀ 12.000\nress: 9.500\n. ɷ ˬ | 1y sharing premium ⨀ 13.000\nress: 10.500\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ fullgar jika kirim ss login max 1x24 jam\n∞ ˬ no ss = no garansi, harap login 1 device\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:33:43.637Z"
+    },
+    {
+      "id": "L1791390852347",
+      "name": "Lightroom",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Lightroom\n\n. ɷ ˬ | 1y sharing ⨀ 13.500\nress: 11.000\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ garansi 6 bulan\n∞ ˬ kirim ss login, harap login 1 device\n∞ ˬ 1x order untuk 1 cust!!\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:34:12.347Z"
+    },
+    {
+      "id": "L1791390881254",
+      "name": "Loklok",
+      "content": "♡ RiiXAnzzz store ♡\n\n' ˗ ˏˋ RiiXAnzzz────  ۪.store !!\n. ⸙ trusted & affordable ──\n\n» ₊ ∮ › -------- + ﾟ list price Loklok\n\n. ɷ ˬ | 1b basic sharing 3u ⨀ 17.000\nress: 14.500\n. ɷ ˬ | 1b standar sharing (bisa tv) 3u ⨀ 19.000\nress: 16.500\n\n{ ₊ ⁺ 🛒 › see note's ¡ ! ˗ ˏ«\n\n∞ ˬ garansi backfree\n∞ ˬ akun limit/disable tidak ada garansi\n∞ ˬ harap login 1 device\n∞ ˬ beli = no rush, no reff\n∞ ˬ tanyakan stok, jgn asal tf\n\n୨୧ thank you for shopping at RiiXAnzzz store !",
+      "description": "♡ RiiXAnzzz store ♡  ' ˗ ˏˋ RiiXAnzzz────  ۪.store !! . ⸙ trusted & affordable ─",
+      "image": null,
+      "video": null,
+      "createdAt": "2026-10-07T16:34:41.254Z"
     }
   ],
   "autoReadSW": {
@@ -910,7 +1077,7 @@
   "contacts": {
     "6281338838631@s.whatsapp.net": {
       "jid": "6281338838631@s.whatsapp.net",
-      "name": "AnzzzShiinaMahiru"
+      "name": "anzzzshiina"
     },
     "6285752411167@s.whatsapp.net": {
       "jid": "6285752411167@s.whatsapp.net",
@@ -934,7 +1101,7 @@
     },
     "6283184665319@s.whatsapp.net": {
       "jid": "6283184665319@s.whatsapp.net",
-      "name": "Biyeon Adolevit"
+      "name": "Theo"
     },
     "6282137223201@s.whatsapp.net": {
       "jid": "6282137223201@s.whatsapp.net",
@@ -974,7 +1141,7 @@
     },
     "6285773047053@s.whatsapp.net": {
       "jid": "6285773047053@s.whatsapp.net",
-      "name": "El"
+      "name": "Vi"
     },
     "6282350386790@s.whatsapp.net": {
       "jid": "6282350386790@s.whatsapp.net",
@@ -982,11 +1149,11 @@
     },
     "6282332648084@s.whatsapp.net": {
       "jid": "6282332648084@s.whatsapp.net",
-      "name": "eh niki?"
+      "name": "fryyan"
     },
     "6281392733718@s.whatsapp.net": {
       "jid": "6281392733718@s.whatsapp.net",
-      "name": "hasbi fotosintesis"
+      "name": "hasbi."
     },
     "6281224320641@s.whatsapp.net": {
       "jid": "6281224320641@s.whatsapp.net",
@@ -1002,11 +1169,11 @@
     },
     "6283130757527@s.whatsapp.net": {
       "jid": "6283130757527@s.whatsapp.net",
-      "name": "Rei Zen"
+      "name": "Shin Hae-won"
     },
     "6283136604168@s.whatsapp.net": {
       "jid": "6283136604168@s.whatsapp.net",
-      "name": ".Kenn"
+      "name": "Adept"
     },
     "6281292693654@s.whatsapp.net": {
       "jid": "6281292693654@s.whatsapp.net",
@@ -1070,7 +1237,7 @@
     },
     "6285667675401@s.whatsapp.net": {
       "jid": "6285667675401@s.whatsapp.net",
-      "name": "!~•sᴏʀɪᴍᴀᴄʜɪ ʏᴜᴜᴋɪ•~¡"
+      "name": "Biji 丶 Takajiro"
     },
     "6281374222864@s.whatsapp.net": {
       "jid": "6281374222864@s.whatsapp.net",
@@ -1086,7 +1253,7 @@
     },
     "6288986057981@s.whatsapp.net": {
       "jid": "6288986057981@s.whatsapp.net",
-      "name": "PastelNuts"
+      "name": "Levita~"
     },
     "6282226271750@s.whatsapp.net": {
       "jid": "6282226271750@s.whatsapp.net",
@@ -1098,7 +1265,7 @@
     },
     "6289512789866@s.whatsapp.net": {
       "jid": "6289512789866@s.whatsapp.net",
-      "name": "k"
+      "name": "kafka"
     },
     "6289507980939@s.whatsapp.net": {
       "jid": "6289507980939@s.whatsapp.net",
@@ -1170,7 +1337,7 @@
     },
     "6289678541321@s.whatsapp.net": {
       "jid": "6289678541321@s.whatsapp.net",
-      "name": "bntg"
+      "name": "ntng"
     },
     "6282298310282@s.whatsapp.net": {
       "jid": "6282298310282@s.whatsapp.net",
@@ -1226,7 +1393,7 @@
     },
     "6283127260041@s.whatsapp.net": {
       "jid": "6283127260041@s.whatsapp.net",
-      "name": "Elaina"
+      "name": "Elaina√"
     },
     "6287894262233@s.whatsapp.net": {
       "jid": "6287894262233@s.whatsapp.net",
@@ -1318,7 +1485,7 @@
     },
     "6282269623489@s.whatsapp.net": {
       "jid": "6282269623489@s.whatsapp.net",
-      "name": "S"
+      "name": "Angga"
     },
     "6281339817057@s.whatsapp.net": {
       "jid": "6281339817057@s.whatsapp.net",
@@ -1358,7 +1525,7 @@
     },
     "628986443240@s.whatsapp.net": {
       "jid": "628986443240@s.whatsapp.net",
-      "name": "park sunghoon"
+      "name": "revina sabila gifti"
     },
     "60197682561@s.whatsapp.net": {
       "jid": "60197682561@s.whatsapp.net",
@@ -1550,11 +1717,11 @@
     },
     "6285891293314@s.whatsapp.net": {
       "jid": "6285891293314@s.whatsapp.net",
-      "name": "Vallz"
+      "name": "Vall"
     },
     "6283873048485@s.whatsapp.net": {
       "jid": "6283873048485@s.whatsapp.net",
-      "name": "乌米卡"
+      "name": "2黑酱烤虾"
     },
     "6289601360704@s.whatsapp.net": {
       "jid": "6289601360704@s.whatsapp.net",
@@ -1890,11 +2057,11 @@
     },
     "6285318091435@s.whatsapp.net": {
       "jid": "6285318091435@s.whatsapp.net",
-      "name": "ZAVIER"
+      "name": "Yutakata"
     },
     "6285161698945@s.whatsapp.net": {
       "jid": "6285161698945@s.whatsapp.net",
-      "name": "decade"
+      "name": "Decade"
     },
     "6288985699273@s.whatsapp.net": {
       "jid": "6288985699273@s.whatsapp.net",
@@ -3094,7 +3261,7 @@
     },
     "6285117125319@s.whatsapp.net": {
       "jid": "6285117125319@s.whatsapp.net",
-      "name": "Theodore"
+      "name": "Elylia Service"
     },
     "6285156410832@s.whatsapp.net": {
       "jid": "6285156410832@s.whatsapp.net",
@@ -3150,7 +3317,7 @@
     },
     "6289688358549@s.whatsapp.net": {
       "jid": "6289688358549@s.whatsapp.net",
-      "name": "ビベア @"
+      "name": "ときょ @"
     },
     "6287821273860@s.whatsapp.net": {
       "jid": "6287821273860@s.whatsapp.net",
@@ -3206,7 +3373,7 @@
     },
     "6285702409264@s.whatsapp.net": {
       "jid": "6285702409264@s.whatsapp.net",
-      "name": "Dreeze"
+      "name": "dizzy"
     },
     "6283876841233@s.whatsapp.net": {
       "jid": "6283876841233@s.whatsapp.net",
@@ -3398,7 +3565,7 @@
     },
     "6289685098880@s.whatsapp.net": {
       "jid": "6289685098880@s.whatsapp.net",
-      "name": "Asaka"
+      "name": "Higga Nunter"
     },
     "6283837065874@s.whatsapp.net": {
       "jid": "6283837065874@s.whatsapp.net",
@@ -3622,7 +3789,7 @@
     },
     "6282149525033@s.whatsapp.net": {
       "jid": "6282149525033@s.whatsapp.net",
-      "name": "Zaa"
+      "name": "ZaaXLucky"
     },
     "6281907915321@s.whatsapp.net": {
       "jid": "6281907915321@s.whatsapp.net",
@@ -4006,7 +4173,7 @@
     },
     "6287867082713@s.whatsapp.net": {
       "jid": "6287867082713@s.whatsapp.net",
-      "name": "(⁠≧⁠▽⁠≦⁠)"
+      "name": "A man who loves freedom"
     },
     "6282114262203@s.whatsapp.net": {
       "jid": "6282114262203@s.whatsapp.net",
@@ -4019,6 +4186,206 @@
     "6282158854545@s.whatsapp.net": {
       "jid": "6282158854545@s.whatsapp.net",
       "name": "Xen"
+    },
+    "6281295988048@s.whatsapp.net": {
+      "jid": "6281295988048@s.whatsapp.net",
+      "name": "Malik lagi ngedit."
+    },
+    "62887435017328@s.whatsapp.net": {
+      "jid": "62887435017328@s.whatsapp.net",
+      "name": "Hsin"
+    },
+    "6282281915481@s.whatsapp.net": {
+      "jid": "6282281915481@s.whatsapp.net",
+      "name": "abby"
+    },
+    "6282371861745@s.whatsapp.net": {
+      "jid": "6282371861745@s.whatsapp.net",
+      "name": "Elylia Service"
+    },
+    "6285167359078@s.whatsapp.net": {
+      "jid": "6285167359078@s.whatsapp.net",
+      "name": "Ric 2.0"
+    },
+    "84986714215@s.whatsapp.net": {
+      "jid": "84986714215@s.whatsapp.net",
+      "name": "Mahiru"
+    },
+    "6285178221607@s.whatsapp.net": {
+      "jid": "6285178221607@s.whatsapp.net",
+      "name": "ニニム ラレイ🍉"
+    },
+    "6285384875818@s.whatsapp.net": {
+      "jid": "6285384875818@s.whatsapp.net",
+      "name": "asdw"
+    },
+    "6288211139098@s.whatsapp.net": {
+      "jid": "6288211139098@s.whatsapp.net",
+      "name": "someone"
+    },
+    "6285183542498@s.whatsapp.net": {
+      "jid": "6285183542498@s.whatsapp.net",
+      "name": "thr"
+    },
+    "6285828975549@s.whatsapp.net": {
+      "jid": "6285828975549@s.whatsapp.net",
+      "name": "𝘼𝙇    vynz"
+    },
+    "6281391763780@s.whatsapp.net": {
+      "jid": "6281391763780@s.whatsapp.net",
+      "name": "Arika desuwa"
+    },
+    "6285198751415@s.whatsapp.net": {
+      "jid": "6285198751415@s.whatsapp.net",
+      "name": "karesl4ngts"
+    },
+    "6285156447969@s.whatsapp.net": {
+      "jid": "6285156447969@s.whatsapp.net",
+      "name": "Lián"
+    },
+    "6285864208345@s.whatsapp.net": {
+      "jid": "6285864208345@s.whatsapp.net",
+      "name": "chyye.mp4 sean, keonho"
+    },
+    "6285787547768@s.whatsapp.net": {
+      "jid": "6285787547768@s.whatsapp.net",
+      "name": "Chekii"
+    },
+    "601111662304@s.whatsapp.net": {
+      "jid": "601111662304@s.whatsapp.net",
+      "name": "CEO sadam"
+    },
+    "6285215563872@s.whatsapp.net": {
+      "jid": "6285215563872@s.whatsapp.net",
+      "name": "ナウファル"
+    },
+    "6281539290351@s.whatsapp.net": {
+      "jid": "6281539290351@s.whatsapp.net",
+      "name": "Fairuz"
+    },
+    "6287844674335@s.whatsapp.net": {
+      "jid": "6287844674335@s.whatsapp.net",
+      "name": "Tambunan"
+    },
+    "6285166176245@s.whatsapp.net": {
+      "jid": "6285166176245@s.whatsapp.net",
+      "name": "reyzx sawit"
+    },
+    "6285135555045@s.whatsapp.net": {
+      "jid": "6285135555045@s.whatsapp.net",
+      "name": "lune"
+    },
+    "6285624370449@s.whatsapp.net": {
+      "jid": "6285624370449@s.whatsapp.net",
+      "name": "ゆっこ"
+    },
+    "6281947585826@s.whatsapp.net": {
+      "jid": "6281947585826@s.whatsapp.net",
+      "name": "mily"
+    },
+    "6287822741977@s.whatsapp.net": {
+      "jid": "6287822741977@s.whatsapp.net",
+      "name": "ʙᴇɴɴ`𝐌𝐂𝟗"
+    },
+    "6289526551953@s.whatsapp.net": {
+      "jid": "6289526551953@s.whatsapp.net",
+      "name": "digidaw"
+    },
+    "62881012591375@s.whatsapp.net": {
+      "jid": "62881012591375@s.whatsapp.net",
+      "name": "izumi,k"
+    },
+    "6285817864266@s.whatsapp.net": {
+      "jid": "6285817864266@s.whatsapp.net",
+      "name": "Rjn"
+    },
+    "6281933969786@s.whatsapp.net": {
+      "jid": "6281933969786@s.whatsapp.net",
+      "name": "Ran S_DropShadow"
+    },
+    "62881025586350@s.whatsapp.net": {
+      "jid": "62881025586350@s.whatsapp.net",
+      "name": "Abdul Malik (Henceforth)"
+    },
+    "6285727249084@s.whatsapp.net": {
+      "jid": "6285727249084@s.whatsapp.net",
+      "name": "ya in ajah"
+    },
+    "6282373614899@s.whatsapp.net": {
+      "jid": "6282373614899@s.whatsapp.net",
+      "name": "b1sm4patheticangelz"
+    },
+    "6282144402900@s.whatsapp.net": {
+      "jid": "6282144402900@s.whatsapp.net",
+      "name": "v3rs"
+    },
+    "6288235724128@s.whatsapp.net": {
+      "jid": "6288235724128@s.whatsapp.net",
+      "name": "celamv"
+    },
+    "6289518785949@s.whatsapp.net": {
+      "jid": "6289518785949@s.whatsapp.net",
+      "name": "Noa~"
+    },
+    "62895321962407@s.whatsapp.net": {
+      "jid": "62895321962407@s.whatsapp.net",
+      "name": "Elaina"
+    },
+    "6285879059753@s.whatsapp.net": {
+      "jid": "6285879059753@s.whatsapp.net",
+      "name": "Marga 𝘿"
+    },
+    "6289623376749@s.whatsapp.net": {
+      "jid": "6289623376749@s.whatsapp.net",
+      "name": "rikki"
+    },
+    "6285743169616@s.whatsapp.net": {
+      "jid": "6285743169616@s.whatsapp.net",
+      "name": "Датабес"
+    },
+    "6285786505698@s.whatsapp.net": {
+      "jid": "6285786505698@s.whatsapp.net",
+      "name": "young R nichol"
+    },
+    "6288971009003@s.whatsapp.net": {
+      "jid": "6288971009003@s.whatsapp.net",
+      "name": "The real Sean"
+    },
+    "84898921141@s.whatsapp.net": {
+      "jid": "84898921141@s.whatsapp.net",
+      "name": "MeiiwoFX."
+    },
+    "6285772483732@s.whatsapp.net": {
+      "jid": "6285772483732@s.whatsapp.net",
+      "name": "pt aka jaya abadi"
+    },
+    "6281361651764@s.whatsapp.net": {
+      "jid": "6281361651764@s.whatsapp.net",
+      "name": "Roel"
+    },
+    "6289668705459@s.whatsapp.net": {
+      "jid": "6289668705459@s.whatsapp.net",
+      "name": "sryhs"
+    },
+    "62895383098720@s.whatsapp.net": {
+      "jid": "62895383098720@s.whatsapp.net",
+      "name": "Bryan they said"
+    },
+    "628982836999@s.whatsapp.net": {
+      "jid": "628982836999@s.whatsapp.net",
+      "name": "Naboo"
+    },
+    "6289678931519@s.whatsapp.net": {
+      "jid": "6289678931519@s.whatsapp.net",
+      "name": "Geo"
+    },
+    "6282330610110@s.whatsapp.net": {
+      "jid": "6282330610110@s.whatsapp.net",
+      "name": "Yaefahlevi"
+    },
+    "6288279189588@s.whatsapp.net": {
+      "jid": "6288279189588@s.whatsapp.net",
+      "name": "Rain"
     }
   },
   "notiflimit": false,
@@ -4029,5 +4396,5 @@
   "sitagrup": {},
   "srtEnabled": true,
   "autoTyping": false,
-  "antiCall": true
+  "antiCall": false
 }

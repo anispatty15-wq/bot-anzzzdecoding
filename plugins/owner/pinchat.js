@@ -19,9 +19,13 @@ async function handler(m, { sock }) {
     if (action === 'buka' || action === 'unpin') {
         pin = false
         const num = (m.args[1] || '').replace(/[^0-9]/g, '')
-        if (num) targetJid = num + '@s.whatsapp.net'
-        else if (m.quoted) targetJid = m.quoted.sender || m.quoted.participant
-        else if (!m.isGroup) targetJid = m.chat
+        if (num) {
+            targetJid = num + '@s.whatsapp.net'
+        } else if (m.quoted) {
+            targetJid = m.quoted.sender || m.quoted.participant
+        } else if (!m.isGroup) {
+            targetJid = m.chat
+        }
     } else {
         if (m.mentionedJid?.length > 0) {
             targetJid = m.mentionedJid[0]
@@ -40,18 +44,19 @@ async function handler(m, { sock }) {
             '📌 *ᴘɪɴ ᴄʜᴀᴛ*\n\n' +
             '> `.pinchat 628xxx` — Pin chat\n' +
             '> `.pinchat` (di private chat) — Pin chat ini\n' +
-            '> `.pinchat buka 628xxx` — Unpin chat'
+            '> `.pinchat buka 628xxx` — Unpin chat\n' +
+            '> `.pinchat buka` (reply pesan) — Unpin chat target'
         )
     }
 
     try {
-        await sock.chatModify({ pin }, targetJid)
+        await sock.chatModify({ pin: pin ? true : false }, targetJid)
         await m.react('✅')
         const target = targetJid.split('@')[0]
         return m.reply(
             pin
                 ? `📌 *ᴄʜᴀᴛ ᴅɪᴘɪɴ*\n\n> Target: ${target}`
-                : `📍 *ᴘɪɴ ᴅɪʜᴀᴘᴜs*\n\n> Target: ${target}`
+                : `📍 *ᴄʜᴀᴛ ᴅɪʜᴀᴘᴜs*\n\n> Target: ${target}`
         )
     } catch (err) {
         return m.reply(`❌ Gagal: ${err.message}`)
